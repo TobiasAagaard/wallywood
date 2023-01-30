@@ -1,11 +1,9 @@
-import { GlobalStyle } from "./Components/Styled/Global.style";
 import { ContainerStyle } from "./Components/Styled/Container.style";
 
 function App() {
   return (
     <div className="App">
-      <GlobalStyle />
-      <ContainerStyle bg="red">fnsajfnsja</ContainerStyle>
+      <ContainerStyle maxwidth="1024">Hello World</ContainerStyle>
     </div>
   );
 }

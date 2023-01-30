@@ -1,5 +1,8 @@
 import styled from "styled-components";
 export const ContainerStyle = styled.section`
-    border: solid 1px #000;
-    background-color ${(props) => props.bg}
+  background-color: ${(props) => props.theme.colors.light};
+  width: 100%;
+  height: 98vh;
+  margin: auto;
+  max-width: ${(props) => props.maxwidth}px;
 `;
