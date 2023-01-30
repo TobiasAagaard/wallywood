@@ -5,5 +5,4 @@ export const ContainerStyle = styled.section`
   height: 98vh;
   margin: auto;
   max-width: ${(props) => props.maxwidth}px;
-  font-family ${(props) => props.theme.fonts[0]}
 `;
